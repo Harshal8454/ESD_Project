@@ -1,0 +1,146 @@
+/* Navbar Styles */
+*{
+  width: 100%;
+}
+
+
+.navbar {
+  background-color: #3498db;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  font-size: 1rem;
+  text-align: end;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  text-align: right;
+  transition: background 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  background-color: #2980b9;
+}
+
+/* Your existing form design */
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.form-container {
+  width: 80%; /* Increase width */
+  max-width: 800px; /* Ensure responsive design */
+  padding: 20px; /* Reduce padding */
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px; /* Add margin from the top */
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Slightly smaller */
+  text-align: center;
+  color: #2c3e50;
+}
+
+.response-message {
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #fff;
+  background: #3498db;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.placement-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem; /* Reduce font size */
+  color: #34495e;
+}
+
+.placement-form input,
+.placement-form textarea {
+  width: 100%;
+  padding: 8px; /* Reduce height */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Reduce font size */
+  background: #f4f4f4;
+  color: inherit;
+  font-family: inherit;
+}
+
+.placement-form textarea {
+  resize: none;
+  height: 80px; /* Reduce height */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.row label {
+  flex: 1;
+}
+
+.react-select__control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.react-select__menu {
+  background-color: #f4f4f4;
+}
+
+.react-select__multi-value {
+  background: #3498db;
+  color: #fff;
+}
+
+.submit-button {
+  display: inline-block; /* Make smaller */
+  padding: 8px 16px; /* Compact size */
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #2980b9;
+}

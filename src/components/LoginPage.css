@@ -1,0 +1,86 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center;    /* Vertical alignment */
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px; /* Ensures the form remains visible even on smaller screens */
+}
+
+/* Login Container */
+.login-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin:auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f4f4f4;
+  color: #34495e;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  background: #ffffff;
+}
+
+/* Labels */
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Submit Button */
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
