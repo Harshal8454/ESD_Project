@@ -22,8 +22,8 @@ The feature supports multiple selections or no selection for certain fields, suc
   - **Specializations**: Theory & Systems, Data Science (Multiple selections possible)
   - **Minimum Grade Requirement**: Optional field.
   - **Maximum Intake**: Optional field.
-- **Multiple Selections/No Constraints**: The system supports multiple selections or no constraints for fields like domains, specializations, and minimum grade.
-- **Admin Review**: Placement offers are submitted for admin review and approval before they go live.
+- **Multiple Selections/No Constraints**: The system supports multiple selections or no constraints.
+
 
 ---
 
